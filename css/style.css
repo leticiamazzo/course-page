@@ -44,6 +44,7 @@ h4, .a-text {
   border: 1px solid #6D1F78;
   color: #FFFFFF;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .button-no-color {
@@ -104,6 +105,18 @@ img {
 
 .column-1 {
   width: 50%;
+  position: relative;
+  text-align: left;
+}
+
+.top-informations {
+  position: absolute;
+  top: 50px;
+}
+
+.bottom-informations {
+  position: absolute;
+  bottom: 50px;
 }
 
 .p-small {
@@ -119,10 +132,12 @@ img {
 .offered {
   display: flex;
   align-items: center;
+  margin-bottom: 35px;
 }
 .itau-bank {
   width: 68px;
   height: 30px;
+  margin-left: 10px;
 }
 
 /*  ----------------------------  */
@@ -168,7 +183,7 @@ img {
 .play-talk {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -187,6 +202,7 @@ img {
 }
 .left-arrow {
   border: 1px solid #E1E2E4;
+  transform: rotate(180deg);
 }
 
 .advance, .return {
@@ -198,6 +214,7 @@ img {
 
 .row-3 {
   background-color: #FFFFFF;
+  padding: 30px 50px;
 }
 
 .illustration {
@@ -214,7 +231,7 @@ img {
 
 .above-item {
   position: absolute;
-  top: 45%;
+  top: 48%;
   left: 45%;
   transform: translate(-50%, -50%);
 }
