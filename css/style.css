@@ -126,8 +126,13 @@ img {
   bottom: 50px;
 }
 
+.tag-course {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .tag {
-  margin-bottom: 20px;
+  padding: 10px 20px;
 }
 
 .p-small {
@@ -135,6 +140,7 @@ img {
   font-weight: bold;
   color: #9B9EA2;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .course-information {
   color: #FFFFFF;
